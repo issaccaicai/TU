@@ -1,0 +1,10 @@
+C:\Users\YING\source\repos\Midterm review\Midterm review\bin\Debug\Midterm review.exe.config
+C:\Users\YING\source\repos\Midterm review\Midterm review\bin\Debug\Midterm review.exe
+C:\Users\YING\source\repos\Midterm review\Midterm review\bin\Debug\Midterm review.pdb
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm review.csprojAssemblyReference.cache
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm_review.frmMain.resources
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm_review.Properties.Resources.resources
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm review.csproj.GenerateResource.cache
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm review.csproj.CoreCompileInputs.cache
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm review.exe
+C:\Users\YING\source\repos\Midterm review\Midterm review\obj\Debug\Midterm review.pdb

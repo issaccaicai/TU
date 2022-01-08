@@ -1,0 +1,70 @@
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.deps.json
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.json
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.dev.json
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csprojAssemblyReference.cache
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CoreCompileInputs.cache
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfoInputs.cache
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfo.cs
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.dll
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.pdb
+C:\Users\tug11448\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CopyComplete
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.deps.json
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.json
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.dev.json
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.dll
+C:\Users\YING\Desktop\APITest\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.pdb
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfoInputs.cache
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfo.cs
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CopyComplete
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\YING\Desktop\APITest\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.deps.json
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.json
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.dev.json
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.dll
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.pdb
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csprojAssemblyReference.cache
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CoreCompileInputs.cache
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfoInputs.cache
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfo.cs
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CopyComplete
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Downloads\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.deps.json
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.json
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.dev.json
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.dll
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.pdb
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csprojAssemblyReference.cache
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CoreCompileInputs.cache
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfoInputs.cache
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfo.cs
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CopyComplete
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.deps.json
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.json
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.runtimeconfig.dev.json
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TermProjectWS.pdb
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.dll
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Debug\netcoreapp2.0\TestLib.pdb
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csprojAssemblyReference.cache
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CoreCompileInputs.cache
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfoInputs.cache
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.AssemblyInfo.cs
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.csproj.CopyComplete
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.dll
+C:\Users\Ying\Downloads\API V 7\API V 4\API V 3\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Debug\netcoreapp2.0\TermProjectWS.pdb

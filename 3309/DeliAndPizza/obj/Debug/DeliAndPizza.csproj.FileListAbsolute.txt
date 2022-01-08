@@ -1,0 +1,18 @@
+C:\Users\YING\Desktop\project\DeliAndPizza\bin\Debug\DeliAndPizza.exe
+C:\Users\YING\Desktop\project\DeliAndPizza\bin\Debug\DeliAndPizza.pdb
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.frmMain.resources
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.Properties.Resources.resources
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.csproj.GenerateResource.cache
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.exe
+C:\Users\YING\Desktop\project\DeliAndPizza\obj\Debug\DeliAndPizza.pdb
+E:\temple\CIS 3309\project\DeliAndPizza\bin\Debug\DeliAndPizza.exe
+E:\temple\CIS 3309\project\DeliAndPizza\bin\Debug\DeliAndPizza.pdb
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.csprojAssemblyReference.cache
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.frmMain.resources
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.Properties.Resources.resources
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.csproj.GenerateResource.cache
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.csproj.CoreCompileInputs.cache
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.exe
+E:\temple\CIS 3309\project\DeliAndPizza\obj\Debug\DeliAndPizza.pdb

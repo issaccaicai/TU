@@ -1,0 +1,1 @@
+Double-click on the exe file in bin\Debug to run sample app.

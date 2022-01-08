@@ -1,0 +1,39 @@
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe.config
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.pdb
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csprojResolveAssemblyReference.cache
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Form1.resources
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Properties.Resources.resources
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.GenerateResource.Cache
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.exe
+C:\Users\tug96043\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.pdb
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe.config
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\bin\Debug\MatrixOps.pdb
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Form1.resources
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Properties.Resources.resources
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.exe
+C:\Users\Administrator\Desktop\MatrixOps\MatrixOps\obj\Debug\MatrixOps.pdb
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe.config
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.pdb
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csprojAssemblyReference.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Form1.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Properties.Resources.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.GenerateResource.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.CoreCompileInputs.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.exe
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.pdb
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe.config
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.exe
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\bin\Debug\MatrixOps.pdb
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Form1.resources
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.Properties.Resources.resources
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.GenerateResource.cache
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.exe
+C:\Users\YING\Desktop\CIS 3309\MatrixOps\MatrixOps\MatrixOps\obj\Debug\MatrixOps.pdb

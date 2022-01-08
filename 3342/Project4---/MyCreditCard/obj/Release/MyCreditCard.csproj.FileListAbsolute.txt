@@ -1,0 +1,9 @@
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\bin\Release\MyCreditCard.dll
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\bin\Release\MyCreditCard.pdb
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\bin\Release\Utilities.dll
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\bin\Release\Utilities.pdb
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\obj\Release\MyCreditCard.csprojAssemblyReference.cache
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\obj\Release\MyCreditCard.csproj.CoreCompileInputs.cache
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\obj\Release\MyCreditCard.csproj.CopyComplete
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\obj\Release\MyCreditCard.dll
+C:\Users\Chuan\Desktop\Project4\MyCreditCard\obj\Release\MyCreditCard.pdb

@@ -1,0 +1,11 @@
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\bin\Debug\Ch20DB.exe.config
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\bin\Debug\Ch20DB.exe
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\bin\Debug\Ch20DB.pdb
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.csprojResolveAssemblyReference.cache
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.frmMain.resources
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.frmOrder.resources
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.Properties.Resources.resources
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.csproj.GenerateResource.Cache
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.exe
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.pdb
+c:\users\joseph\documents\visual studio 2015\Projects\Ch20DB\Ch20DB\obj\Debug\Ch20DB.frmAllCustomers.resources

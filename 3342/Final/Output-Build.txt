@@ -1,0 +1,8 @@
+﻿1>------ Publish started: Project: TermProjectWS, Configuration: Release Any CPU ------
+Connecting to X:\TermProjectWS...
+TermProjectWS -> C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\bin\Release\netcoreapp2.0\TermProjectWS.dll
+TermProjectWS -> C:\Users\tug11448\Desktop\API V 2\APITest11111\APITest11111\TermProjectWS\obj\Release\netcoreapp2.0\PubTmp\Out\
+Web App was published successfully file:///X:/TermProjectWS
+
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========

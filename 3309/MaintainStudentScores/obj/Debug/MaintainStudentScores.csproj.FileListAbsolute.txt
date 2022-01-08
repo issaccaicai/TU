@@ -1,0 +1,28 @@
+C:\Users\Administrator\source\repos\MaintainStudentScores\bin\Debug\MaintainStudentScores.exe.config
+C:\Users\Administrator\source\repos\MaintainStudentScores\bin\Debug\MaintainStudentScores.exe
+C:\Users\Administrator\source\repos\MaintainStudentScores\bin\Debug\MaintainStudentScores.pdb
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.Properties.Resources.resources
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.csproj.GenerateResource.Cache
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.exe
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.pdb
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmStudentScores.resources
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmAddScore.resources
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmUpdateStudentScores.resources
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmAddNewStudent.resources
+C:\Users\Administrator\source\repos\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmUpdateScore.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\bin\Debug\MaintainStudentScores.exe.config
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\bin\Debug\MaintainStudentScores.exe
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\bin\Debug\MaintainStudentScores.pdb
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.csprojAssemblyReference.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmUpdateScore.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmAddScore.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmUpdateStudentScores.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmAddNewStudent.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.frmStudentScores.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.Properties.Resources.resources
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.csproj.GenerateResource.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.csproj.CoreCompileInputs.cache
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.exe
+C:\Users\YING\Documents\WeChat Files\Issac_Cy-\Files\MaintainStudentScores\MaintainStudentScores\obj\Debug\MaintainStudentScores.pdb

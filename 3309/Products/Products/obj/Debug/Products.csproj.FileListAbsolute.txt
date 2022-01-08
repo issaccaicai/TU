@@ -1,0 +1,23 @@
+c:\users\joseph\documents\visual studio 2015\Projects\Products\Products\bin\Debug\Products.exe.config
+D:\Ying\Downloads\Products\Products\Products\bin\Debug\Products.exe.config
+D:\Ying\Downloads\Products\Products\Products\bin\Debug\Products.exe
+D:\Ying\Downloads\Products\Products\Products\bin\Debug\Products.pdb
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.csprojAssemblyReference.cache
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.frmMain.resources
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.frmProduct.resources
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.Properties.Resources.resources
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.csproj.GenerateResource.cache
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.exe
+D:\Ying\Downloads\Products\Products\Products\obj\Debug\Products.pdb
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\bin\Debug\Products.exe.config
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\bin\Debug\Products.exe
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\bin\Debug\Products.pdb
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.frmMain.resources
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.frmProduct.resources
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.Properties.Resources.resources
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.csproj.GenerateResource.cache
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.exe
+C:\Users\YING\Desktop\3309 final\Products\Products\Products\obj\Debug\Products.pdb

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderOptionMaintenance", "OrderOptionMaintenance\OrderOptionMaintenance.csproj", "{7153D23C-3178-4B8C-A4F9-F7A734775E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7153D23C-3178-4B8C-A4F9-F7A734775E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7153D23C-3178-4B8C-A4F9-F7A734775E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7153D23C-3178-4B8C-A4F9-F7A734775E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7153D23C-3178-4B8C-A4F9-F7A734775E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

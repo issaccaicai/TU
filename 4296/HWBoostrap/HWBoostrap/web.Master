@@ -1,0 +1,253 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="web.master.cs" Inherits="HWBoostrap.web" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <style>
+        #footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            background-color:burlywood;
+            color: White;
+            letter-spacing: 0.1ex;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 12px;
+        }
+
+            #footer a {
+                text-decoration: none;
+                color: #CCCCCC;
+            }
+
+                #footer a:hover {
+                    color: white;
+                }
+
+        #container {
+            /*align-content:center;*/
+            height: 10em;
+            position: relative;
+        }
+
+        div.container h1 {
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a.navbar-brand {
+            float: left;
+            height: 50px;
+            padding: 15px 15px;
+            font-size: 18px;
+            line-height: 20px;
+            text-decoration: none;
+            color: cornflowerblue;
+            font-family: cursive;
+            font-weight: 700;
+        }
+
+        nav.main-navigation {
+            position: relative;
+        }
+
+            nav.main-navigation ul.nav-list {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                position: relative;
+                text-align: right;
+            }
+
+        .nav-list li.nav-list-item {
+            display: inline-block;
+            line-height: 40px;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        a.nav-link {
+            text-decoration: none;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: 500;
+            cursor: pointer;
+            position: relative;
+            color: #404040;
+        }
+
+        @keyframes FadeIn {
+            0% {
+                opacity: 0;
+                -webkit-transition-duration: 0.8s;
+                transition-duration: 0.8s;
+                -webkit-transform: translateY(-10px);
+                -ms-transform: translateY(-10px);
+                transform: translateY(-10px);
+            }
+
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+                pointer-events: auto;
+                transition: cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+
+        .nav-list li {
+            animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+            animation-fill-mode: both;
+        }
+
+            .nav-list li:nth-child(1) {
+                animation-delay: .3s;
+            }
+
+            .nav-list li:nth-child(2) {
+                animation-delay: .6s;
+            }
+
+            .nav-list li:nth-child(3) {
+                animation-delay: .9s;
+            }
+
+            .nav-list li:nth-child(4) {
+                animation-delay: 1.2s;
+            }
+
+            .nav-list li:nth-child(5) {
+                animation-delay: 1.5s;
+            }
+
+
+        @keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-fill-mode: both
+        }
+
+        .animatedFadeInUp {
+            opacity: 0
+        }
+
+        .fadeInUp {
+            opacity: 0;
+            animation-name: fadeInUp;
+            -webkit-animation-name: fadeInUp;
+        }
+
+        hr {
+            height: 3px;
+        }
+
+                    .column33 {
+                width: 100%;
+                padding: 15px;
+                background-color: #3bc6d3;
+                color: black;
+                margin: 5px 0%;  
+                box-sizing: border-box; 
+            }
+                                    .column33 {
+                    background-color: #FF9999;
+                    padding: 5px 15px;
+                    width: 32%;
+                    box-sizing:border-box;
+                    margin: 0px 0.5%;  
+                    float: left;
+                }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <title>Auto Events System</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    <nav class="main-navigation">
+        <div class="navbar-header animated fadeInUp">
+            <a class="navbar-brand">
+                <img src="img/TU.png" style="width: 300px; height: 65px;" alt="">
+                Auto Events System
+        </a>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a href="Home.aspx" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="AboutYou.aspx" class="nav-link">About You</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="login.aspx" class="nav-link">Logout</a>
+            </li>
+        </ul>
+
+    </nav>
+    <hr>
+
+    <form id="form1" runat="server">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+    <div id="footer">
+        Temple CIS 4296 Ying Cai 
+    </div>
+</body>
+</html>

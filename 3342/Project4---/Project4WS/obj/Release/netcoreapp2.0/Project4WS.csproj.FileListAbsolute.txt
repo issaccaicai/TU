@@ -1,0 +1,16 @@
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Project4WS.deps.json
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Project4WS.runtimeconfig.json
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Project4WS.runtimeconfig.dev.json
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Project4WS.dll
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Project4WS.pdb
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\MyCreditCard.dll
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Utilities.dll
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\MyCreditCard.pdb
+C:\Users\Chuan\Desktop\Project4\Project4WS\bin\Release\netcoreapp2.0\Utilities.pdb
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.csprojAssemblyReference.cache
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.csproj.CoreCompileInputs.cache
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.AssemblyInfoInputs.cache
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.AssemblyInfo.cs
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.csproj.CopyComplete
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.dll
+C:\Users\Chuan\Desktop\Project4\Project4WS\obj\Release\netcoreapp2.0\Project4WS.pdb

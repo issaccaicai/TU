@@ -1,0 +1,9 @@
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\bin\Debug\restaurantLibrary.dll
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\bin\Debug\restaurantLibrary.pdb
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\bin\Debug\Utilities.dll
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\bin\Debug\Utilities.pdb
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\obj\Debug\restaurantLibrary.csprojAssemblyReference.cache
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\obj\Debug\restaurantLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\obj\Debug\restaurantLibrary.csproj.CopyComplete
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\obj\Debug\restaurantLibrary.dll
+C:\Users\Ying\Desktop\Project3\restaurantLibrary\obj\Debug\restaurantLibrary.pdb

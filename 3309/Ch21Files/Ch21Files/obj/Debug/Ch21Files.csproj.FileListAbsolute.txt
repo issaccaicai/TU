@@ -1,0 +1,29 @@
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe.config
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\bin\Debug\Ch21Files.pdb
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csprojResolveAssemblyReference.cache
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.frmMain.resources
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.Properties.Resources.resources
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csproj.GenerateResource.Cache
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.exe
+c:\users\joseph\documents\visual studio 2015\Projects\Ch21Files\Ch21Files\obj\Debug\Ch21Files.pdb
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe.config
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.pdb
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.frmMain.resources
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.Properties.Resources.resources
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csproj.GenerateResource.cache
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.exe
+C:\Users\YING\Desktop\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.pdb
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe.config
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.exe
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\bin\Debug\Ch21Files.pdb
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csprojAssemblyReference.cache
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.frmMain.resources
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.Properties.Resources.resources
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csproj.GenerateResource.cache
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.csproj.CoreCompileInputs.cache
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.exe
+C:\Users\YING\Desktop\CIS 3309\Ch21Files\Ch21Files\Ch21Files\obj\Debug\Ch21Files.pdb

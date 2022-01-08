@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ying's Project1</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+        }
+        #border {
+            margin: auto;
+            border: 5px solid red;
+            padding: 10px;
+
+        }
+        h1 {
+            border-color:dodgerblue;
+            border-style: dotted dashed solid;
+            text-align: center;
+        }
+
+    </style>
+    <script>
+    function Validation() {
+        var Name = document.getElementById("txtName");
+        var Id = document.getElementById("txtID");
+        var selection = document.getElementById("courseSelection");
+
+        if (Name.value == "")
+        {
+            window.alert("Please enter your name first!")
+            name.focus();
+        }
+        if (Id.value == "")
+        {
+            window.alert("Please enter your Student ID!")
+            Id.focus();
+        }
+        if (selection.value == "") {
+            window.alert("Please enter a course!")
+            selection.focus();
+        }
+        else
+        {
+            window.alert("Thank you! You've submitted the from.")
+            document.getElementById("frmStudentFeedback").submit();
+        }
+    }
+    </script>
+</head>
+<body>
+    <FORM id="frmStudentFeedback" method="post" action="project1.aspx">
+
+        <div id="border">
+
+            <h1>Student Feedback Forms</h1>
+            <hr>
+            <br /><br />
+
+            <h3> *Student must enter their Name, Student ID, and select a course before filling out the form below.
+            After filling out your student information, please answer following two parts of questions by selecting 
+            the options from Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree based on your opinion. After 
+            answering all the questions, you need click on submit button to submit your form. It will displayed the 
+            results that you have selected, the points that associate to each answers, the averages, and the letter 
+            grade.*  
+
+            </h3>
+
+
+            Name:
+            <br />
+            <input type="text" id="txtName" name="txtName" required />
+            <br /><br />
+
+            Student ID:
+            <br />
+            <input type="text" id="txtID" name="txtID" required />
+            <br /><br />
+
+            <select id="courseSelection" name="course">
+                <option value="default">--Choose one course--</option>
+                <option value="CIS3342">CIS 3342</option>
+                <option value="CIS3309">CIS 3309</option>
+                <option value="CIS3344">CIS 3344</option>
+            </select>
+
+
+            <br /><br />
+            <hr>
+            <br />
+
+            <h2>Course Feedback:</h2>
+
+            1: Is this course hard?
+            <br /><br />
+            <input type="radio" name="Q1" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q1" value="Agree" /> Agree
+            <input type="radio" name="Q1" value="Neutral" /> Neutral
+            <input type="radio" name="Q1" value="Disagree" /> Disagree
+            <input type="radio" name="Q1" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            2: Do you like this course?
+            <br /><br />
+            <input type="radio" name="Q2" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q2" value="Agree" /> Agree
+            <input type="radio" name="Q2" value="Neutral" /> Neutral
+            <input type="radio" name="Q2" value="Disagree" /> Disagree
+            <input type="radio" name="Q2" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            3: Do you think this course is useful?
+            <br /><br />
+            <input type="radio" name="Q3" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q3" value="Agree" /> Agree
+            <input type="radio" name="Q3" value="Neutral" /> Neutral
+            <input type="radio" name="Q3" value="Disagree" /> Disagree
+            <input type="radio" name="Q3" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            4: Do you want to re-take this course?
+            <br /><br />
+            <input type="radio" name="Q4" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q4" value="Agree" /> Agree
+            <input type="radio" name="Q4" value="Neutral" /> Neutral
+            <input type="radio" name="Q4" value="Disagree" /> Disagree
+            <input type="radio" name="Q4" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            5: Did you study hard in this course?
+            <br /><br />
+            <input type="radio" name="Q5" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q5" value="Agree" /> Agree
+            <input type="radio" name="Q5" value="Neutral" /> Neutral
+            <input type="radio" name="Q5" value="Disagree" /> Disagree
+            <input type="radio" name="Q5" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            6: Did you attend every class?
+            <br /><br />
+            <input type="radio" name="Q6" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q6" value="Agree" /> Agree
+            <input type="radio" name="Q6" value="Neutral" /> Neutral
+            <input type="radio" name="Q6" value="Disagree" /> Disagree
+            <input type="radio" name="Q6" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            7: Did you well-prepared for every day in this class?
+            <br /><br />
+            <input type="radio" name="Q7" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q7" value="Agree" /> Agree
+            <input type="radio" name="Q7" value="Neutral" /> Neutral
+            <input type="radio" name="Q7" value="Disagree" /> Disagree
+            <input type="radio" name="Q7" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            8: Did you pass this course?
+            <br /><br />
+            <input type="radio" name="Q8" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q8" value="Agree" /> Agree
+            <input type="radio" name="Q8" value="Neutral" /> Neutral
+            <input type="radio" name="Q8" value="Disagree" /> Disagree
+            <input type="radio" name="Q8" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            9: Were there lots of assignments in this class?
+            <br /><br />
+            <input type="radio" name="Q9" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q9" value="Agree" /> Agree
+            <input type="radio" name="Q9" value="Neutral" /> Neutral
+            <input type="radio" name="Q9" value="Disagree" /> Disagree
+            <input type="radio" name="Q9" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            10: Were assignments hard?
+            <br /><br />
+            <input type="radio" name="Q10" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q10" value="Agree" /> Agree
+            <input type="radio" name="Q10" value="Neutral" /> Neutral
+            <input type="radio" name="Q10" value="Disagree" /> Disagree
+            <input type="radio" name="Q10" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            11. Did you purchase the required books for this class?
+            <br /><br />
+            <input type="radio" name="Q11" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q11" value="Agree" /> Agree
+            <input type="radio" name="Q11" value="Neutral" /> Neutral
+            <input type="radio" name="Q11" value="Disagree" /> Disagree
+            <input type="radio" name="Q11" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+
+            12: Did you read the required books?
+            <br /><br />
+            <input type="radio" name="Q12" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="Q12" value="Agree" /> Agree
+            <input type="radio" name="Q12" value="Neutral" /> Neutral
+            <input type="radio" name="Q12" value="Disagree" /> Disagree
+            <input type="radio" name="Q12" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br />
+            <hr>
+            <br />
+
+
+            <h2>Professor Feedback:</h2>
+
+            1: Do you like this professor?
+            <br /><br />
+            <input type="radio" name="QS1" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS1" value="Agree" /> Agree
+            <input type="radio" name="QS1" value="Neutral" /> Neutral
+            <input type="radio" name="QS1" value="Disagree" /> Disagree
+            <input type="radio" name="QS1" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            2: Did professor teach well in this class?
+            <br /><br />
+            <input type="radio" name="QS2" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS2" value="Agree" /> Agree
+            <input type="radio" name="QS2" value="Neutral" /> Neutral
+            <input type="radio" name="QS2" value="Disagree" /> Disagree
+            <input type="radio" name="QS2" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            3: Did professor assgin fair amount of assginments?
+            <br /><br />
+            <input type="radio" name="QS3" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS3" value="Agree" /> Agree
+            <input type="radio" name="QS3" value="Neutral" /> Neutral
+            <input type="radio" name="QS3" value="Disagree" /> Disagree
+            <input type="radio" name="QS3" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+
+            4: Did professor have office hour?
+            <br /><br />
+            <input type="radio" name="QS4" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS4" value="Agree" /> Agree
+            <input type="radio" name="QS4" value="Neutral" /> Neutral
+            <input type="radio" name="QS4" value="Disagree" /> Disagree
+            <input type="radio" name="QS4" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            5: Did professor arrive on time every class?
+            <br /><br />
+            <input type="radio" name="QS5" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS5" value="Agree" /> Agree
+            <input type="radio" name="QS5" value="Neutral" /> Neutral
+            <input type="radio" name="QS5" value="Disagree" /> Disagree
+            <input type="radio" name="QS5" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            6: Did professor try his best to help students?
+            <br /><br />
+            <input type="radio" name="QS6" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS6" value="Agree" /> Agree
+            <input type="radio" name="QS6" value="Neutral" /> Neutral
+            <input type="radio" name="QS6" value="Disagree" /> Disagree
+            <input type="radio" name="QS6" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            7: Did this professor what you expected him to be?
+            <br /><br />
+            <input type="radio" name="QS7" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS7" value="Agree" /> Agree
+            <input type="radio" name="QS7" value="Neutral" /> Neutral
+            <input type="radio" name="QS7" value="Disagree" /> Disagree
+            <input type="radio" name="QS7" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            8: Did professor know course materials well?
+            <br /><br />
+            <input type="radio" name="QS8" value="Strongly agree" checked /> Strongly agree
+            <input type="radio" name="QS8" value="Agree" /> Agree
+            <input type="radio" name="QS8" value="Neutral" /> Neutral
+            <input type="radio" name="QS8" value="Disagree" /> Disagree
+            <input type="radio" name="QS8" value="Strongly Disagree" /> Strongly disagree
+
+            <br /><br /><br />
+
+            <input type="button" id="btnSubmit" name="btnSubmit" value="Submit" onclick="Validation()" />
+
+        </div>
+
+
+
+    </FORM>
+</body>
+</html>

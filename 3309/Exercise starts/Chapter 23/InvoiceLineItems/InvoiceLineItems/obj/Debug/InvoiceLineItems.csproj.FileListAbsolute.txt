@@ -1,0 +1,39 @@
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe.config
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks.mdf
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.pdb
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Form1.resources
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Properties.Resources.resources
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csproj.GenerateResource.Cache
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.exe
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.pdb
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks_log.ldf
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csprojResolveAssemblyReference.cache
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe.config
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.exe
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.pdb
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks.mdf
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks_log.ldf
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.pdb
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csprojResolveAssemblyReference.cache
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Form1.resources
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Properties.Resources.resources
+C:\C# 2012 Instructor's CD\Extra exercise solutions\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csproj.GenerateResource.Cache
+C:\C# 2012 Instructor's CD\Extra exercises\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe.config
+C:\C# 2012 Instructor's CD\Extra exercises\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.exe
+C:\C# 2012 Instructor's CD\Extra exercises\Chapter 23\Extra 23-1 InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.pdb
+L:\Murach's C# 2012 Instructor's CD\CDROM files\C# 2012\Instructors\Extra exercises\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe.config
+L:\Murach's C# 2012 Instructor's CD\CDROM files\C# 2012\Instructors\Extra exercises\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.exe
+L:\Murach's C# 2012 Instructor's CD\CDROM files\C# 2012\Instructors\Extra exercises\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.pdb
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe.config
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.exe
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.pdb
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks.mdf
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\MMABooks_log.ldf
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.exe
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\bin\Debug\InvoiceLineItems.pdb
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csprojResolveAssemblyReference.cache
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Form1.resources
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.Properties.Resources.resources
+C:\C# 2015\Extra exercises\Exercise starts\Chapter 23\InvoiceLineItems\InvoiceLineItems\obj\Debug\InvoiceLineItems.csproj.GenerateResource.Cache

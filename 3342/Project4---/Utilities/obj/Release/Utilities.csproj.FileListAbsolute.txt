@@ -1,0 +1,6 @@
+C:\Users\Chuan\Desktop\Project4\Utilities\bin\Release\Utilities.dll
+C:\Users\Chuan\Desktop\Project4\Utilities\bin\Release\Utilities.pdb
+C:\Users\Chuan\Desktop\Project4\Utilities\obj\Release\Utilities.csprojAssemblyReference.cache
+C:\Users\Chuan\Desktop\Project4\Utilities\obj\Release\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Chuan\Desktop\Project4\Utilities\obj\Release\Utilities.dll
+C:\Users\Chuan\Desktop\Project4\Utilities\obj\Release\Utilities.pdb

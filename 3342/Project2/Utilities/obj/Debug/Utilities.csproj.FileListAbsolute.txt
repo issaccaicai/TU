@@ -1,0 +1,12 @@
+C:\Users\Ying\source\repos\Project2\Utilities\bin\Debug\Utilities.dll
+C:\Users\Ying\source\repos\Project2\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Ying\source\repos\Project2\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Ying\source\repos\Project2\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Ying\source\repos\Project2\Utilities\obj\Debug\Utilities.dll
+C:\Users\Ying\source\repos\Project2\Utilities\obj\Debug\Utilities.pdb
+D:\Project2\Utilities\bin\Debug\Utilities.dll
+D:\Project2\Utilities\bin\Debug\Utilities.pdb
+D:\Project2\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+D:\Project2\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+D:\Project2\Utilities\obj\Debug\Utilities.dll
+D:\Project2\Utilities\obj\Debug\Utilities.pdb

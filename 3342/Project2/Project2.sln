@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{90783C66-8EFD-4351-8FDA-C9688110007D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{85CE116A-835E-4EB4-8238-79FCDC5AD0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLibrary", "BookLibrary\BookLibrary.csproj", "{808C58EC-FADB-4C98-A26C-F0127685846A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90783C66-8EFD-4351-8FDA-C9688110007D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90783C66-8EFD-4351-8FDA-C9688110007D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90783C66-8EFD-4351-8FDA-C9688110007D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90783C66-8EFD-4351-8FDA-C9688110007D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CE116A-835E-4EB4-8238-79FCDC5AD0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CE116A-835E-4EB4-8238-79FCDC5AD0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CE116A-835E-4EB4-8238-79FCDC5AD0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CE116A-835E-4EB4-8238-79FCDC5AD0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808C58EC-FADB-4C98-A26C-F0127685846A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808C58EC-FADB-4C98-A26C-F0127685846A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808C58EC-FADB-4C98-A26C-F0127685846A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808C58EC-FADB-4C98-A26C-F0127685846A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {836FECAA-7748-482E-90AF-D4D54936D352}
+	EndGlobalSection
+EndGlobal
