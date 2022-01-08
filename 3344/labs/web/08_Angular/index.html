@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto show Angular</title>
+   
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
+
+        <link href="style/myStyle.css" rel="stylesheet" type="text/css" />  
+        <link href="style/listStyle.css" rel="stylesheet" type="text/css" />  
+
+        <style>
+        </style>
+    </head>
+    <body ng-app='myAppBody'>
+        <div>
+            <div id="titleNav">
+                
+                <div id="pageTitle">
+                    Auto Show Angular
+                </div>
+                
+                <div id="nav">
+                    <div><a href="#home">NgHome</a></div>
+                    <div><a href="#users">Users</a></div>
+                    <div><a href="#resorts">Auto</a></div>
+                    <div><a href="../labs.html">Labs</a></div>
+                </div>
+                
+                <div class="stopFloat"></div>
+                
+            </div>
+
+            <div ng-view="" id="content">
+
+                <div class="stopFloat"></div>
+            </div> 
+
+            <div id="footer">
+                Ying Cai
+            </div>
+
+        </div>
+        
+        <script src='js/1_routing_layout_app.js'></script>
+        <script src='js/2_user_controller.js'></script>
+        <script src='js/3_resort_controller.js'></script>
+    </body>
+</html>

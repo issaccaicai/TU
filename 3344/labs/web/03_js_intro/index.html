@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Transportation </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            body { 
+                margin: 0; 
+                padding: 0; 
+                font-family: Tahoma, 'Arial Black', san-serif;
+                font-size: 16px;
+                line-height: 1.5em;
+                background-color: #a2d3e8;
+            }
+
+            div {
+
+                background-color: lightgreen;
+                padding: 5em;
+                box-shadow: 10px 10px 10px gray;
+            }
+
+            h1{
+                color:red;
+                text-align: center;
+                background-color: aqua;
+                padding: 1em;
+                margin-top: 0em;
+                margin-bottom: 1em;
+                margin-left: 0;
+                margin-right: 0;
+
+            }
+            li{
+                color:green;
+                text-align: right;
+                padding: 0.25em;
+                margin-top: 0em;
+                margin-bottom: 0em;
+                margin-left: 0;
+                margin-right: 0;
+                font-size: 19px;
+            }
+
+            img {
+                width:100%;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+
+            .column33 {
+                background-color: #FF9999;
+                padding: 5px 15px;
+                width: 32%;
+                box-sizing:border-box;
+                margin: 0px 0.5%;  
+                float: left;
+            }
+            .container {
+                background-color:  #3bc6d3;
+                padding: 0px 15px;
+            }
+            #footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+                width: 100%;
+                background-color: red;
+                color:#CCCCCC;
+                letter-spacing: 0.1ex;
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 12px;
+            }
+            #nav {
+                margin-right:2%;
+                float:right;
+                letter-spacing: 1px;
+            }
+            
+
+        </style>
+    </head>     
+    <body>
+        <ul id="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../labs.html">Labs</a></li>
+        </ul>
+        <h1>Transportaion</h1>
+
+        <p style="color:rgb(83, 60, 91)">
+            <strong><em style="margin-right:1ex;">Choose your favorite transportation!</em></strong>
+        </p>
+
+        <div class="container">
+            <div class="column33">
+
+                <div id= "airplane"></div>
+
+                <br/><button onclick="changePlaneCost()">Change Cost to</button>
+                <input id="planeCost"/>
+                <p>- Click on this picture to increase the cost.</p>
+                <p>- You can change the cost.</p>
+
+
+            </div>
+
+            <div class="column33">
+
+                <div id= "train"></div>
+
+                <br/><button onclick="changeTrainCompany()">Change Company to</button>
+                <input id="trainCompany"/>
+
+
+                <p>- Move your mouse over this picture to change the background color
+                and the cost.</p>
+                <p>- You can change the Train Company.</p>
+
+            </div>
+
+            <div class="column33">
+
+                <div id= "bus"></div>
+
+                <br/><button onclick="changeBusCompany()">Change Company to</button>
+                <input id="busCompany"/>
+                <br/>
+                <br/><button onclick="changeBusPrice()">Change Cost to</button>
+                <input id="busCost"/>
+
+                <p> - Click on the picture to change cost and background color.</p>
+
+            </div>
+
+
+
+        </div>
+
+        <script>
+            "use strict";
+
+            function formatCurrency(num) {
+                return num.toLocaleString("en-US", {style: "currency", currency: "USD", minimumFractionDigits: 2});
+            }
+
+            function makeTransportaion(id, theSpeed, theCompany, theCost, thePicture) {
+                var transportationObj = document.getElementById(id);
+                transportationObj.speed = theSpeed;
+                transportationObj.company = theCompany;
+                transportationObj.cost = theCost;
+                transportationObj.picture = thePicture;
+
+                transportationObj.display = function ( ) {
+
+                    transportationObj.innerHTML = "Transportation speed: " + transportationObj.speed +
+                            "<br/> Transportation company: " + transportationObj.company +
+                            "<br/> Cost :$ " + formatCurrency(transportationObj.cost +
+                                    "<br/> <img src='" + thePicture + "'>");
+                };
+
+                transportationObj.setSpeed = function (newSpeed) {
+                    transportationObj.speed = newSpeed;
+                    transportationObj.display(); // show updated property on the page
+                };
+
+                transportationObj.changeCompany = function (newCompany) {
+                    transportationObj.company = newCompany;
+                    transportationObj.display(); // show updated property on the page
+                };
+
+                transportationObj.changeCost = function (changeCost) {
+                    transportationObj.cost = transportationObj.cost * (1 + changeCost);
+                    transportationObj.display(); // show updated price on the page
+                };
+
+                transportationObj.setCost = function (newCost) {
+                    transportationObj.cost = newCost;
+                    transportationObj.display(); // show updated price on the page
+                };
+
+                transportationObj.changeColor = function (newColor) {
+                    transportationObj.style.backgroundColor = newColor;
+                    transportationObj.display(); // show updated price on the page
+                };
+
+                transportationObj.display(); // show initial properties on the page 
+                return transportationObj;
+            }
+
+            var airplaneObj = makeTransportaion("airplane", "Fast", "Delta", 300, "pics/plane.jpg");
+            var trainObj = makeTransportaion("train", "Medium", "Septa", 100, "pics/train.jpg");
+            var busObj = makeTransportaion("bus", "Slow", "Septa", 5, "pics/bus.jpg");
+
+
+            airplaneObj.onclick = function () {
+                console.log("will increase cost of plane by 100%");
+                airplaneObj.changeCost(1);
+            }
+
+            function changePlaneCost() {
+                var yourNewCost = document.getElementById("planeCost").value;
+                airplaneObj.setCost(yourNewCost);
+            }
+
+
+            function changeTrainCompany() {
+                var yourNewCompany = document.getElementById("trainCompany").value;
+                trainObj.changeCompany(yourNewCompany);
+            }
+
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            trainObj.onmouseover = function () {
+                trainObj.changeColor(getRandomColor());
+
+                console.log("will decrease price of your car object by 1%");
+                trainObj.changeCost(0.01); // reduce price by 1%
+            };
+
+
+
+            function changeBusCompany() {
+                var yourNewCompany = document.getElementById("busCompany").value;
+                busObj.changeCompany(yourNewCompany);
+            }
+
+            function changeBusPrice() {
+                var yourNewCost = document.getElementById("busCost").value;
+                busObj.setCost(yourNewCost);
+            }
+
+            busObj.onclick = function () {
+                busObj.changeColor(getRandomColor());
+
+                console.log("will decrease cost of plane by 0.01%");
+                busObj.changeCost(-0.0001);
+            }
+
+        </script>
+
+        <div id="footer">
+            CIS 3344 Ying Cai 
+        </div>
+        
+    </body>
+</html>

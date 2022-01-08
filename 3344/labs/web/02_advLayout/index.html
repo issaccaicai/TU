@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- It's good practice for modern web design to include these meta tags  -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Auto Show</title>
+
+        <style type="text/css">
+
+            /* ------------ Mobile and Common Styles --------------- */
+            body { 
+                margin: 0; 
+                padding: 0; 
+                font-family: Tahoma, 'Arial Black', san-serif;
+                font-size: 16px;
+                line-height: 1.5em;
+            }
+
+            .container {
+                width: 100%;
+                box-sizing: border-box; /* gets rid of horizontal scroll bar, counts padding and border in box size */
+                /* border:thin solid blue; */
+            }
+
+            .pageTitle {
+                padding: 10px 15px; /* 1st is top/bottom, 2nd is left/right */
+                background-color: gold;
+                color: black;
+                margin-bottom: -3px; /* cover up white space between title and content */
+                font-size: 1.3em;
+                line-height: 2.5em;
+            }
+
+            .column33 {
+                width: 100%;
+                padding: 15px;
+                background-color: #3bc6d3;
+                color: black;
+                margin: 5px 0%;  /* 1st is top/bottom, 2nd is left/right */
+                box-sizing: border-box; /* gets rid of horizontal scroll bar, counts padding and border in box size */
+            }
+
+            .form {
+                width: 100%;
+                padding: 20px;
+                background-color: #3299d1;
+                color: black;
+                margin: 5px 0%;  /* 1st is top/bottom, 2nd is left/right */
+                box-sizing: border-box; /* gets rid of horizontal scroll bar, counts padding and border in box size */
+            }
+            h1 { /* "hero style" page titles */
+                font-size: 3.0em; 
+            }
+            #nav {  /* without this there is space above the nav bar */
+                margin-top: 0px; 
+            }
+
+            .sng-page {
+                min-height: 500px;
+                min-height: 100vh;
+                border-bottom: 1px solid rgba(0,0,0,0); 
+                border-top: 1px solid rgba(0,0,0,0); 
+            }
+
+            #footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+                width: 100%;
+                background-color: black;
+                color:#CCCCCC;
+                letter-spacing: 0.1ex;
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 12px;
+            }
+            #footer a {
+                text-decoration: none;
+                color:#CCCCCC;
+            }
+            #footer a:hover {
+                color: white;
+            }
+
+            /* colors to differentiate the pages */
+            #page1 {
+                background-color: #E6A589;
+            } 
+            #page2 {
+                background-color: #9CB6C1;
+            }
+            #page3 {
+                background-color: #9D9389;
+            }
+
+            #nav {
+                position:fixed;
+                background-color:white;
+                top:0px;
+                right:0px;
+                padding: 10px;
+                font-size:18px;
+                font-weight:bold;
+                z-index:2;
+                margin-right:0px;
+                border-bottom-left-radius: 10px;
+                box-shadow: 12px 12px 12px gray;
+            }
+            #nav li {
+                display:inline;
+                margin-left:5px; /* spacing between links of nav bar */
+            }
+            #nav a {
+                text-decoration: none;
+                color: black;
+            }
+
+            #nav a:link { /*style before it's clicked */
+                color: black;
+
+            }
+            #nav a:visited { /*style after it's clicked */
+                color:#6e7075;
+            }
+            #nav a:hover { /*style while hovering*/
+                color: whitw;
+                background-color:gray;
+
+            }
+            #navGroup {
+                display: none; 
+            }
+            #navIcon {
+                padding-top: 15px;
+                width:40px;
+                box-sizing: border-box;
+                display: block;
+            }
+            .navLink {
+                width:100px;
+                border-bottom: thin solid gray;
+                padding: 4px;
+                display: block;
+                box-sizing: border-box;
+            }
+            .stopFloat {
+                clear:both;
+            }
+            #content {
+                padding:10px;	 	 
+            }
+            #footer {
+                background-color:black;
+                color:white;
+                clear:both;
+                text-align:center;
+                padding:5px;	 	 
+            }
+            .pic1 {
+                padding-top: 22px;
+                padding: 1%;
+                hight:30%;
+                width:30%;
+                float:left;
+                box-sizing: border-box;
+            }
+
+            .pic2 {
+                padding-top: 22px;
+                padding: 1%;
+                hight:30%;
+                width:30%;
+                float:right;
+                box-sizing: border-box;
+            }
+
+
+            img {
+                width:100%;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+
+
+            /* ------------ Desktop Only Styles --------------- */
+
+            @media screen and (min-width: 600px) {
+
+                #title { /* make font of "sally kyvernitis" a bit larger than mobileAndShared.css */
+                    font-size:36px;
+                    padding-top: 18px;
+
+                }
+                .navLink{
+                    display:inline;
+                    border:none;
+                    border-right: thin solid gray;
+                }
+                #navGroup {
+                    display:block;
+                    padding-top: 20px;
+                }
+                #navIcon {
+                    display:none;
+                }
+
+                .container {
+                    background-color:  #3bc6d3;
+                    padding: 0px 15px;
+                }
+
+                .column33 {
+                    background-color: #FF9999;
+                    padding: 5px 15px;
+                    width: 32%;
+                    box-sizing:border-box;
+                    margin: 0px 0.5%;  
+                    float: left;
+                }
+                .form {
+                    background-color: #d1c632;
+                    padding: 10px 20px;
+                    width: 49%;
+                    box-sizing:border-box;
+                    margin: 0px 0.5%;  
+                    float: left;
+                }
+                .clear {
+                    clear:both;
+                }
+
+            </style>
+        </head>
+        <body onresize="resize()">
+
+            <div id="nav">
+                <div id="navIcon" onclick="iconClicked()">
+                    <img src="pic/menuIconBlack.png" alt="" width="10"/>
+                </div>
+                <div id="navGroup">
+                    <div class="navLink"><a href="#page1">Home</a></div>
+                    <div class="navLink"><a href="#page2">Information</a></div>
+                    <div class="navLink"><a href="#page3">Form</a></div>
+                    <div class="navLink"><a href="http://cis-linux2.temple.edu:8080/FA18_3344_tug11448/labs.html">Labs</a></div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Page 1 -->
+            <div id="page1" class="sng-page">
+
+                <center><h1 style="color:greenyellow">Auto Show</h1></center>
+                <div class="pic1" >
+
+                    <img src="pic/show1.jpg">
+                    Auto show #1
+
+                    <br/>
+                </div>
+                <div class="pic2" >
+
+                    <img src="pic/show2.jpg">
+                    Auto show #2
+
+                    <br/>
+                </div>
+                <p>
+                    Welcome to my auto show page. This auto show page will exhibit current auto models,
+                    debuts, concept cars or out of production classics to everyone who interested in cars.
+                    Most auto shows occur once or twice a year. They are important to car manufacturers and 
+                    local dealer as a public relations exercise, at they advertise new products and promote 
+                    auto brands.
+                </p>
+            </div>
+
+            <!-- Page 2 -->
+            <div id="page2" class="sng-page">
+                <center><h1 style="color:black">Motor Shows</h1></center>
+                <div class="container">
+                    <div class="column33">
+
+                        <img src="pic/PA.jpg" alt=""/>
+                        <h2>Pennsylvania Auto Show</h2>
+                        <p>January 24-27,2019</p>
+                        <p>It is an annual auto show held in Harrisburg,Pennsylvania Farm 
+                            Show Complex & Expo Center</p>
+                        <a href="https://www.autoshowharrisburg.com/">Visit Web here!</a>
+                    </div>
+
+                    <div class="column33">
+                        <img src="pic/ny.jpg" alt=""/>
+                        <h2>New York Auto Show</h2>
+                        <p>April 19-28,2019</p> 
+                        <p>This is an annual auto show that is held at the Jacob Javits 
+                            Convention Center. It usually opens on or just before Easter 
+                            weekend and closes on the first Sunday after Easter.</p>
+                        <a href="https://www.autoshowny.com/">Visit Web here!</a>
+                    </div>
+
+                    <div class="column33">
+                        <img src="pic/seattle.jpg" alt=""/>
+                        <h2>Seattle Auto Show</h2>
+                        <p>November 9-12,2018</p>
+                        <p>It is an annual auto show held at CenturyLink Field Event Center.</p>
+                        <a href="http://seattleautoshow.com/">Visit Web here!</a>
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div> <!-- end container -->
+                <Center><h3>Welcome to auto shows!!!</Center>
+            </div>
+
+            <!-- Page 3 -->
+            <div id="page3" class="sng-page">
+                <center><h1 style="color:black">Form</h1></center>
+                <form method="post" action="http://www.temple.edu/cgi-bin/tug11448@temple.edu"> 
+                    <h3> Do you want to join the auto shows? Fill out form below!</h3>
+                    <div class ="form">
+                        Name:   <input type="text" name="userName" placeholder=""/>  <br/><br>
+                        Sex:    <input type="radio" name="userSex" value="M"  />   Male    
+                        <input type="radio" name="userSex"  value="F"  />    Female  <br/> <br>
+                        Birthday:   <input type="date" name="bdaytime" placeholder="mm/dd/yyyy" required="">
+                        Occupation:             
+                        <select name="collegeClass" >
+                            <option value="St" >Student</option>
+                            <option value="Bm">Businessman</option>
+                            <option value="Tc">Teacher</option>
+                            <option value="No" selected="selected">None of above</option>
+                        </select>     <br/> <br/>
+                        Comments? <br/>
+                        <textarea name="inputcomments" cols="45" rows="5" >Leave your comments here...</textarea> <br/> <br/>
+                        <input type="submit" value=" Click Here (to send email) " />
+                        <input type="submit"> &nbsp; <input type="reset">
+                        </form>
+                    </div>
+
+
+                    <div class = "form">
+                        <form method="post" action="http://www.temple.edu/cgi-bin/tug11448@temple.edu">
+                            Email:<br> 
+                            <input name="emailSample" type="email" placeholder="name@domain.com" required=""> like abc@temple.edu <br> <br>
+                            Telephone <input name="telSample" type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) \d{3}-\d{4}" 
+                                             required="">like (610) 123-4567<br><br>
+                            Vehicle Color:<input type="color"><br><br>
+                            Input any range ="range"(min:1, max:10) <input type="range" name="myrange" min="1" max="10" value="1"><br>  <br>
+                            <input type="submit"> &nbsp; <input type="reset">
+                        </form>
+
+
+                    </div>
+
+                    <div id="footer">
+                        CIS 3344 Ying Cai 
+                    </div>
+
+                    <!-- Jquery -->
+                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                    <script>
+
+                    // Wait until all elements exist on the page before trying to reference anything ...
+                    $(document).ready(function () {
+
+                        // $('a[href^="#"]') --> thia selector applies to all <a> elements with a href attribute that starts with "#".
+                        //    Learned this from   http://www.w3schools.com/jquery/jquery_ref_selectors.asp
+                        $('a[href^="#"]').click(function () {
+
+                            // "this" means the element involved in the event, so, the link that was clicked.
+                            console.log("this");
+                            console.log(this); // if you console.log an object, you'll see nice tree view
+                            // of the object's properties in the console (F12 from Chrome)
+                            console.log("-");
+
+                            // ".hash" refers to the href attribute of the <a> tag. So, if <a href="#page1">
+                            // was clicked, then "this.hash" has this value: "#page1"
+                            console.log("this.hash");
+                            console.log(this.hash);
+                            console.log("-");
+
+                            // $ is a jQuery function which returns a jQuery object that references the
+                            // specified HTML element. For example, $("#content") returns a jQuery
+                            // object that references the HTML element with id="content". This object also has
+                            // loads of contextual information (e.g., parent, siblings, and many other properties.
+
+                            // So, variable "target" references a jQuery object that the user clicked. 
+                            var target = $(this.hash);
+                            console.log("$(this.hash)");
+                            console.log(target);
+                            console.log("-");
+
+                            // This if statement will run if target.length exists.
+                            if (target.length) {
+
+                                // animate is a jQuery function (what_to_do, how_fast_in_millisecs). 
+                                // "what_to_do" is an object with any number of CSS property/value pairs:
+                                /*
+                                 * $("button").click(function(){
+                                 $("div").animate({
+                                 left: '250px',
+                                 opacity: '0.5',
+                                 height: '150px'
+                                 },500);
+                                 }); 
+                                 */
+                                // 
+                                // scrollTop is a javaScript property of any DOM element. 
+                                // It measures the number of pixels from the DOM element to the top of 
+                                // of the DOM element's scrollable parent element.
+                                //           see http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollleft
+                                // 
+                                // .offset() is a function (of any jQuery object) that returns an object with 
+                                // top and left properties (top/left relative to the document).
+
+                                $('html, body').animate({
+                                    // set the scrollTop property (of the browser)
+                                    // to be the top attribute of the element being linked to
+                                    scrollTop: target.offset().top
+                                }, 999);  // but do it a bit slow (900 millisecs)
+                            }
+
+                        });
+
+                    });
+                    // returns a reference to the HTML element with the given id
+                    function my$(id) {
+                        return document.getElementById(id);
+                    }
+
+                    // This function is invoked whenever the navIcon is clicked -- because of the 
+                    // <div id="navIcon" onclick="iconClicked()"> tag in the HTML.
+                    function iconClicked() {
+                        var navGroup = my$("navGroup");
+                        var navDisplay = getComputedStyle(navGroup).display;
+                        if (navDisplay === "block") {
+                            my$("navGroup").style.display = "none";
+                        } else {
+                            my$("navGroup").style.display = "block";
+                        }
+                        console.log("icon Clicked. navGroup is " + my$("navGroup").style.display);
+                    }
+
+
+                    // Global declarations **************************************************
+                    var navIcon = my$("navIcon"); // reference to the "navIcon" div
+
+                    // This is the initial display attribute (block or none) - depends on the 
+                    // size of browser at page refresh time. 
+                    // I had to use getComputedStyle (per internet search) rather than just 
+                    // navIcon.style.display because the initial setting is set by CSS not javaScript.
+                    var iconDisplay = getComputedStyle(navIcon).display;
+                    console.log("initial iconDisplay is " + iconDisplay);
+
+                    // We want to have certain behavior when the browser first "gets small" 
+                    // (converts to mobile layout) and when the browser first "gets big" 
+                    // (converts to desktop layout). So we have to track the previous value 
+                    // as well as the current value.
+                    var previousIconDisplay = iconDisplay;
+                    // End of Global declarations **************************************************
+
+
+                    // This function is invoked whenever the browser is resized -- because of the 
+                    // <body> tag in the HTML: <body onresize="resize()">
+                    function resize() {
+                        previousIconDisplay = iconDisplay;
+                        iconDisplay = getComputedStyle(navIcon).display;
+                        console.log("resized. iconDisplay is " + iconDisplay);
+
+                        if (iconDisplay === "none" && previousIconDisplay === "block") {
+                            console.log("sized big - show nav group");
+                            my$("navGroup").style.display = "block";
+
+                        }
+                        if (iconDisplay === "block" && previousIconDisplay === "none") {
+                            console.log("sized small - hide nav group");
+                            my$("navGroup").style.display = "none";
+                        }
+                    }
+
+                    </script>
+                    </body>
+                    </html>

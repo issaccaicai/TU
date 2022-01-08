@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <title> Transportation </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        html, body {
+            margin:0; 
+            padding:0; 
+        }
+        body {
+            background-color: #83efda; 
+            font-size:30px;
+             color:green;
+        }
+
+        #titleNav {
+            font-family: serif;
+            color:green;
+            background-color:#f7d9bb;
+            height: 75px;
+            min-width:600px; 
+        }
+        #pageTitle { 
+            padding-top:10px;
+            padding-left:10px;
+            font-size:45px;
+            font-weight:bold;
+            letter-spacing: 1.5px;
+            text-align:center;
+            float:left;
+        }   
+        #nav {
+            margin-right:2%;
+            float:right;
+            letter-spacing: 1px;
+        }
+        #nav a {
+            text-decoration:none;  
+            color: brown; 
+        }
+        #nav div {
+            margin-top:3px;
+            float:left;
+            font-size:18px;
+            padding: 6px;
+            padding-top:34px;
+            height: 33px;
+            text-align:center;
+            letter-spacing: 1px;
+            font-weight:bold;
+        }
+        #nav div:hover {
+            background-color: white; 
+        }
+        #nav div:hover a {
+            color: lawngreen;
+        }
+        .stopFloat {
+            clear:both;
+        }
+        #footer {
+            position: fixed;
+            bottom:0px;
+            left:0xp;
+            width:100%;
+            background-color:#9D9389;
+            color:Black;
+            clear:both;
+            text-align:center;
+            padding:5px;
+            font-size:20px;
+        }
+
+
+
+        #gallery { /* overall styling for the picture gallery */
+            box-sizing: border-box;
+            width: 40%;
+            margin: auto;
+            background-color: #f79696;
+            border-radius: 5px;
+        }
+
+        #gallery #bigImage img{ /* styling of the large picture within the picture gallery */
+            border-radius: 5px;
+            border-bottom-left-radius:0px;
+            border-bottom-right-radius:0px;
+            width: 100%;
+            
+
+        }
+        #gallery p { /* styling of the large picture’s caption */
+            margin: 5px;
+            margin-top: 1ex;
+            margin-bottom: 1ex;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        #gallery #picList { /* styling of the small picture list within the picture gallery */
+            box-sizing: border-box;
+            padding-top:5px;
+            padding-bottom:2px;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 5px;
+            box-shadow: 10px 10px 10px #888888;
+            background-color: #000000;
+            
+        }
+        #gallery #picList img { /*styling of the small photos in the thumbnails */
+            width: 15%;
+            padding:3px;
+        }
+        
+        
+        #gal { /* overall styling for the picture gallery */
+            box-sizing: border-box;
+            width: 40%;
+            margin: auto;
+            background-color: #000000;
+            border-radius: 5px;
+        }
+
+        #gal #big img{ /* styling of the large picture within the picture gallery */
+            border-radius: 5px;
+            border-bottom-left-radius:0px;
+            border-bottom-right-radius:0px;
+            width: 100%;
+            
+
+        }
+        #gal p { /* styling of the large picture’s caption */
+            margin: 5px;
+            margin-top: 1ex;
+            margin-bottom: 1ex;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        #gal #pic { /* styling of the small picture list within the picture gallery */
+            box-sizing: border-box;
+            padding-top:5px;
+            padding-bottom:2px;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 100px;
+            box-shadow: 10px 10px 10px #888888;
+            background-color: #000000;
+            
+        }
+        #gal #pic img { /*styling of the small photos in the thumbnails */
+            width: 15%;
+            padding:3px;
+        }
+    </style>
+
+    <body>
+        <div id="titleNav">
+            <div id="pageTitle">
+                Transportation
+            </div>
+            <div id = "nav">
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="index.html">Javascript Framework</a></div>
+                <div><a href="../labs.html">Labs</a></div>
+            </div>
+        </div>
+        
+            <div id = "gallery">
+                <div id ="bigImage"></div>
+                <p id ="picCap"></p>
+                <div id ="picList"></div>
+                
+                
+            </div>
+        </br></br>
+        
+            <div id = "gal">
+                <div id ="big"></div>
+                <p id ="picC"></p>
+                <div id ="pic"></div>
+                
+                
+            </div>
+  
+        
+        
+        <script src ="Picturefw.js"></script>
+        <script>
+            var myTransGallery = makeMyTransGallery("gallery",
+                    [
+                        {
+                            imgFileName: 'pics/plane.jpg',
+                            caption: 'Airplane'
+                        },
+                        {
+                            imgFileName: 'pics/boat.jpg',
+                            caption: 'Bus'
+                        },
+                        {
+                            imgFileName: 'pics/car.jpg',
+                            caption: 'Vehicle'
+                        },
+                        {
+                            imgFileName: 'pics/bus.jpg',
+                            caption: 'Bus'
+                        },
+                        {
+                            imgFileName: 'pics/truck.jpg',
+                            caption: 'Truck'
+                        },
+                        {
+                            imgFileName: 'pics/train.jpg',
+                            caption: 'Train'
+                        },
+                    ]);
+
+
+
+            var myTransGallery2 = makeMyTransGallery2("gal",
+                    [
+                        {
+                            imgFileName: 'pics/plane.jpg',
+                            caption: 'Airplane'
+                        },
+                        {
+                            imgFileName: 'pics/boat.jpg',
+                            caption: 'Bus'
+                        },
+                        {
+                            imgFileName: 'pics/car.jpg',
+                            caption: 'Vehicle'
+                        },
+                        {
+                            imgFileName: 'pics/bus.jpg',
+                            caption: 'Bus'
+                        },
+                        {
+                            imgFileName: 'pics/truck.jpg',
+                            caption: 'Truck'
+                        },
+                        {
+                            imgFileName: 'pics/train.jpg',
+                            caption: 'Train'
+                        },
+                    ]);
+        </script>
+        <div id="footer">
+            CIS 3344 Ying Cai 
+        </div>
+    </body>
+
+</html>

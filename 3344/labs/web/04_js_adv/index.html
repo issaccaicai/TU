@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <title> Transportation </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        html, body {
+            margin:0; /* don't want tiny white border inside browser window */
+            padding:0; /* don't want tiny white border inside browser window */
+        }
+        body {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            background-color: #89cae5; /* this is the turqoise color */
+            font-size:16px;
+        }
+
+        #titleNav {
+
+            font-family: serif;
+            color:blueviolet;
+            background-color:#9D9389;
+            height: 75px;
+            min-width:600px; /* forces horizontal scroll bar when browser width < the size specified 
+                                This prevents unwanted wrapping of nav bar elements */
+        }
+        #pageTitle { /* position web site title inside the titleNav */
+            padding-top:10px;
+            padding-left:10px;
+            font-size:45px;
+            font-weight:bold;
+            letter-spacing: 1.5px;
+            text-align:center;
+            float:left;
+        }
+        #nav {
+            margin-right:2%;
+            float:right;
+            letter-spacing: 1px;
+        }
+
+        /* "#nav a" styles links inside of element with id="nav" */
+        #nav a {
+            text-decoration:none;  /* Do not links in "nav" to be underlined */
+            color: brown; /* light gray */
+        }
+
+        /* Styles any div inside of an element with id="nav". */
+        #nav div {
+            margin-top:3px;
+            float:left;
+            font-size:18px;
+            padding: 6px;
+            padding-top:34px;
+            height: 33px;
+            text-align:center;
+            letter-spacing: 1px;
+            font-weight:bold;
+        }
+
+        /* When the user hover's over a div that's inside of and element with 
+           id="nav", the text inside the div will become larger and with less top 
+           padding (so it is still centered vertically). */
+        #nav div:hover {
+            background-color: yellow; /* this is the turqoise color */
+        }
+
+ 
+        #nav div:hover a {
+            color: lawngreen;
+        }
+
+        .stopFloat {
+            clear:both;
+        }
+        #content {
+            padding-left:4px;	
+            padding-right:4px;	
+            padding-bottom: 30px; 
+
+        }
+
+        #footer {
+            position: fixed;
+            bottom:0px;
+            left:0xp;
+            width:100%;
+            background-color:#9D9389;
+            color:Black;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+        }
+
+        table {
+            margin:auto;     
+            margin-top: 2em;
+            margin-bottom: 5em;
+            width: 55%;
+        }
+
+        td {
+            padding: 30px;
+            background-color: #dae26a;
+            font-size:20px;
+        }
+
+        thead td {  
+            background-color: #8edba9;
+            font-weight: bold;
+            font-size:25px;
+        }
+
+        .stopFloat {
+            clear:both;
+        }
+
+    </style>
+
+    <body>
+        <div id="titleNav">
+            <div id="pageTitle">
+                Transportation
+            </div>
+            <div id = "nav">
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="index.html">Advanced_JS</a></div>
+                <div><a href="../labs.html">Labs</a></div>
+            </div>
+        </div>
+        <div class="stopFloat"></div>
+    <center><h1 style="color:rgb(204, 141, 6)"> →Choose your own transportation← </h1></center>
+
+
+
+    <div id="listHere"></div>
+
+    <script>
+        "use script";
+
+        function my$(element) {
+            return document.getElementById(element);
+        }
+
+        function makeTransportation(theName, theImage, theSpeed, theCapacity, theCost) {
+
+            var transportationObj = {};
+            transportationObj.name = theName;
+            transportationObj.image = theImage;
+            transportationObj.speed = theSpeed;
+            transportationObj.capacity = theCapacity;
+            transportationObj.cost = theCost;
+            return transportationObj;
+        }
+
+
+
+        function makeTable(transportationList) {
+            var newTable = document.createElement("table");
+
+            var newRow;
+            var newCell;
+
+            for (var i in transportationList) {
+                newRow = newTable.insertRow(i);
+
+                newCell = newRow.insertCell(0);
+                newCell.innerHTML = transportationList[i].name;
+                newCell.style.textAlign = "left";
+
+                newCell = newRow.insertCell(1);
+                newCell.innerHTML = "<img width='300' src='" + transportationList[i].image + "'>";
+                newCell.style.textAlign = "center";
+
+                newCell = newRow.insertCell(2);
+                newCell.innerHTML = transportationList[i].speed;
+                newCell.style.textAlign = "center";
+
+
+                newCell = newRow.insertCell(3);
+                newCell.innerHTML = transportationList[i].capacity;
+                newCell.style.textAlign = "center";
+
+                newCell = newRow.insertCell(4);
+                newCell.innerHTML = formatCurrency(transportationList[i].cost);
+                newCell.style.textAlign = "right";
+
+            }
+
+            var newHead = newTable.createTHead();
+            newRow = newHead.insertRow(0);
+
+            newCell = newRow.insertCell(0);
+            newCell.innerHTML = "Transportation";
+            newCell.style.textAlign = "left";
+
+            newCell.onclick = function () {
+                sort(transportationList, "name");
+                displayTable();
+            };
+
+            newCell = newRow.insertCell(1);
+            newCell.innerHTML = "Image";
+
+
+            newCell = newRow.insertCell(2);
+            newCell.innerHTML = "Speed";
+            newCell.style.textAlign = "center";
+
+            newCell.onclick = function () {
+                sort(transportationList, "speed");
+                displayTable();
+            };
+
+
+            newCell = newRow.insertCell(3);
+            newCell.innerHTML = "Capacity";
+            newCell.style.textAlign = "center";
+
+            newCell.onclick = function () {
+                sort(transportationList, "capacity");
+                displayTable();
+            };
+            
+            newCell = newRow.insertCell(4);
+            newCell.innerHTML = "Cost";
+            newCell.style.textAlign = "right";
+
+            newCell.onclick = function () {
+                sort(transportationList, "cost");
+                displayTable();
+            };
+            return newTable;
+        }
+
+        function formatCurrency(num) {
+            return num.toLocaleString("en-US", {style: "currency", currency: "USD", minimumFractionDigits: 2});
+        }
+
+        function sort(list, byProperty) {
+            var size = list.length;
+
+            for (var i = 0; i < size - 1; i++) {
+                var small = i;
+                console.log('i is ' + i);
+
+                for (var j = i; j < size; j++) {
+                    console.log("j is " + j);
+                    var listJ = list[j];
+                    var listSmall = list[small];
+
+                    if (listJ[byProperty] < listSmall[byProperty]) {
+                        small = j;
+                        console.log("small is " + small);
+                    }
+                }
+
+                var temp = list[i];
+                list[i] = list[small];
+                list[small] = temp;
+                console.log("swapped i " + i + " with small " + small);
+            }
+        }
+
+        function displayTable() {
+            var htmlTable = makeTable(transportationList);
+
+            my$("listHere").innerHTML = "";
+
+            my$("listHere").appendChild(htmlTable);
+
+        }
+
+        var transportationList = [];
+        transportationList[0] = makeTransportation("AirPlane", "pics/airplane.jpg", "Fast", "#3", 1000000);
+        transportationList[1] = makeTransportation("Vehicle", "pics/vehicle.png", "Slow", "#5", 1500);
+        transportationList[2] = makeTransportation("Train", "pics/train.jpg", "Fast", "#2", 8000);
+        transportationList[3] = makeTransportation("Bus", "pics/bus.jpg", "Slow", "#4", 2000);
+        transportationList[4] = makeTransportation("Ship", "pics/ship.jpg", "Medium", "#1", 5000);
+
+        sort(transportationList, "name");
+        displayTable();
+
+    </script>
+
+
+    <div id="footer">
+        CIS 3344 Ying Cai 
+    </div>
+</body>
+</html>

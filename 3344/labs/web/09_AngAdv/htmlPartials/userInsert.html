@@ -1,0 +1,90 @@
+<!--
+
+ The field names from the JSON of the Web API (use same names in JS):
+
+     "webUserId": "1",
+     "userEmail": "donald.j.otto@temple.edu",
+     "userPassword": "p@ssw0rd",
+     "birthday": "03/24/1994",
+     "membershipFee": "$2,500.00",
+     "errorMsg": ""
+-->
+
+
+
+<div id="insertArea">
+
+    <h3>Insert User</h3>
+
+    <table>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="text" id="emailId" ng-model="newUser.userEmail">
+            </td>
+            <td class="error" id="emailErrorId">
+                {{errors.userEmail}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input type="password" id="passwordId" ng-model="newUser.userPassword">
+            </td>
+            <td class="error" id="passwordErrorId">
+                {{errors.userPassword}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Re-enter Password:
+            </td>
+            <td>
+                <input type="password" id="password2Id" ng-model="newUser.userPassword2">
+            </td>
+            <td class="error" id="password2ErrorId">
+                {{errors.userPassword2}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birthday:
+            </td>
+            <td>
+                <input type="text" id="birthdayId" ng-model="newUser.birthday">
+            </td>
+            <td class="error" id="birthdayErrorId">
+                {{errors.birthday}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Membership Fee:
+            </td>
+            <td>
+                <input type="text" id="membershipFeeId" ng-model="newUser.membershipFee">
+            </td>
+            <td class="error" id="membershipFeeErrorId">
+                {{errors.membershipFee}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button ng-click="insertSave()">Insert Save</button>
+            </td>
+            <td colspan="2" class="error">
+                {{errors.errorMsg}}
+            </td>
+        </tr>
+    </table>
+
+</div>

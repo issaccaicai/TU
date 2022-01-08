@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ying's Lab Blog</title>
+
+        <!-- Use this type of comment within HTML -->
+
+        <!-- If you want to use any Angular code (like the angular include, you 
+        must include a reference to the Angular JS library -->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+        <!-- This is a reference to an external style sheet, many pages can point to one -->
+        <link href="myStyle.css" rel="stylesheet" type="text/css" />  
+
+        <style>
+            /* 
+              This is called an internal style sheet. Put styles in here that 
+              you need for this specific page. These styles will overwrite whatever
+              is in your external style sheet above.
+
+              Use ONLY this (slash/star) )type of comment inside a style sheet. Other types 
+              (like double slash) do not work.  
+            */
+        </style>
+    </head>
+    <body>
+
+        <div ng-app="">  <!-- inside this div you can use Angular directives -->     
+
+            <div ng-include src="'top.html'"> </div> <!-- will insert "top.html" code here -->  
+
+            <div id="content">
+                <h3>Lab 1: Home Page</h3>
+                <ul style="color:rgb(83, 60, 91)">
+                    <li> My experience with HTML,CSS,Javascript/jquery is pretty limited. This is probably 
+                        the first time that I hear those client side frameworks.
+                    </li>
+
+                    <li>
+                        I am able to optimize the layout, make images at different places.
+                    </li>
+
+                    <li>
+                        I familiarized myself  with HTML and CSS. I learned how to deal with background 
+                        color and font size for the web pages.
+                    </li>
+                </ul>
+                <h3><a href="02_advLayout/index.html">Lab 2: Advanced Layout</a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+                    <li>I am kind of new to html coding. Therefore, I have plenty of things need to learn. There 
+                        are a lot of difficult parts in this lab. </li>
+                    <li>The jQuery and media query are hard for me. I  need to perform a web page both properly 
+                        on desktop or on mobile devices. The easy part is form page. </li>
+                    <li> So, I learned a lot of things from this lab. I could deal with so many html 
+                        coding.</li>
+
+                </ul>
+                <h3><a href="03_js_intro/index.html">Lab 3: JavaScript Intro</a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab is relatively easier than first two labs. I am getting 
+                        familiar with html coding. </li>
+                    <li> I am learning how to preform properly with my web pages.The hardest
+                        part for this lab is how to makedifferent background color.</li>
+                    <li>There are plenty of naming error(carObj)for this lab, therefore
+                        I have to spend a lot of time to check the script.</li>
+                </ul>
+                <h3><a href="04_js_adv/index.html">Lab 4: Advanced JavaScript</a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab assignment was easier than before. I learned how to using 
+                        sorting and tables.</li>
+                    <li> The hardest part is sorting part. I had to sort everything in correct 
+                        order. I had to spend time to think of that.</li>
+                    <li>The easier part was to arrange the tables, titles, and word formatting, 
+                        etc.</li>
+                </ul>
+                <h3><a href="05_js_fw/index.html">Lab 5: JavaScript Framework</a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab assignment was much harder than before. Especially, the make 
+                        function in the script. It took me long time to check.</li>
+                    <li> Another hard part is the picture layout. I spent plenty of time to fix 
+                        the image to the window. Sometimes, the image is larger or smaller. So, I had 
+                        to spend time to look over my code from the beginning.</li>
+                    <li>I learned how to use javascript framework for this lab to perform a picture gallery.</li>
+                </ul>
+
+                <h3>Lab 6: Database</h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab assignment <a href= "06_db/Ying Cai database.docx"> Click here </a>  
+                        was pretty easier than other labs. We have to follow the instructions and 
+                        requirements in order to finish this homework assignment.</li>
+                    <li>I learned how to use the MySql Workbench and how to connect to my database. </li>
+                    <li>This helps to learn how to use sql statement and how to create own data table for next homework. </li>
+                </ul>
+
+                <h3><a href="tutorial/index.html">-- TUTORIAL -- </a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+                    <li>In this tutorial, I will introduce four effects which could be added to images. They are;
+                        Portfolio Gallery with Filtering, Image flipping, Image Magnifier Glass, Image Comparison Slider.</li>
+                </ul>
+                <h3>Lab 7: Web APIs and AJAX</a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+                    <li> The hardest part for this homework Web API is put URL image into the table from our database.</li>
+                    <li>Other parts are easier, since we have done these steps from lab activity. </li>
+                    <li>I learned how to extra data from MySQL workbench.</li>
+                </ul>
+                <p>
+                    <a href= "07_webAPIs/listUsers.html">Web user table list</a></br>
+                    <a href= "07_webAPIs/listUsersAPI.jsp">Web user API</a></br>
+                    <a href= "07_webAPIs/listCar.html">Car table list</a></br>
+                    <a href= "07_webAPIs/carAPI.jsp">Car table API</a>
+                </p>
+
+
+                <h3><a href="08_Angular/index.html">Lab 8: Angular_Intro </a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab assignment is pretty easy. We just need to put our two tables 
+                        on the web.</li>
+                    <li> The hardest part is put the second table on the web. </li>
+                    <li> The image appears on the web is pretty large. So, I spent a lot of time on that.</li>
+                </ul>
+                
+                <h3><a href="09_AngAdv/index.html">Lab 9: Angular_Advanced </a></h3>
+                <ul style="color:rgb(83, 60, 91)">
+
+
+                    <li> This lab assignment is a little bit of complicated. I need to be able add some other data into database from web.</li>
+                    <li> The hardest part is how to add input to database from web site. </li>
+                    <li> The easy part is how to display data from our database, since we already did that in lab 8.</li>
+                </ul>
+            </div> <!-- end of content. [[Keep track of nesting]] -->
+
+            <div ng-include src="'bottom.html'"> </div> <!-- will insert "top.html" code here -->  
+
+        </div> <!-- end of the ng-app div -->
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+/* Style the HTML table that shows the tabular database data */
+
+#dataList h2 {
+    text-align: center;
+}
+
+#dataList div {
+    text-align: center;
+}
+
+#dataList table {
+    margin:auto;     /* margin:auto makes left and right margins the same, centers the table */
+    margin-top: -1em;
+}
+
+#dataList td {
+    padding: 4px;
+    background-color: #E8E8FF;
+    font-size:13px;
+}
+
+#dataList th {  /* style of td elements that are inside of a thead element (column headings)) */
+    background-color: #C8C8DD;
+    font-weight: bold;
+    font-size:16px;
+    padding: 4px;
+    padding-top:10px;
+    white-space: nowrap; /* added this so that there was no wrap between heading and sort icon */
+}

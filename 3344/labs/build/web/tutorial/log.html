@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ying's Tutorial</title>
+
+
+        <link href="style.css" rel="stylesheet" type="text/css" />  
+
+        <style>
+        </style>
+
+    </head>
+    <body>
+        <div id="titleNav">
+
+            <div id="pageTitle">
+                Image Tutorial
+            </div>
+
+            <div id="nav">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="example.html">Tester</a></div>
+
+                <div><a href="log.html">Log</a></div>
+                <div><a href="../labs.html">Labs</a></div>
+            </div>
+
+            <div class="stopFloat"></div>
+
+        </div>
+
+        <div class="stopFloat"></div>
+        <div ng-app="">
+            <div class="container">
+                <h1>Portfolio Gallery with Filtering:</h1>
+                <p>Step 1: Creating filtering buttons.</p>
+                <p> - First of all, we have the HTML markup for Tab navigation. We have filterSelection(), because we need this function for filtering.</p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="jQvMqV" data-default-tab="html,result" data-user="issac7" data-pen-title="jQvMqV" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/jQvMqV/">jQvMqV</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <p>Step 2:</p>
+                <p> - Creating filtering buttons for the images portfolio and styling them. </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="jQVMKg" data-default-tab="css,result" data-user="issac7" data-pen-title="jQVMKg" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/jQVMKg/">jQVMKg</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <p>Step 3:</p>
+                <p> - Adding active class to the current button. When user clicks on selected button, it will hight light the active/current button. </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="pQONLG" data-default-tab="css,result" data-user="issac7" data-pen-title="pQONLG" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/pQONLG/">pQONLG</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <p>Step 4: Adding images</p>
+                <p> - Under Tab navigation, we have portfolio list. We need to assign each portfolio a category in class column attribute.To match 
+                    filterSelection('') with class column, this is how to filter portfolios by category.  </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="XyybBO" data-default-tab="html,result" data-user="issac7" data-pen-title="XyybBO" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/XyybBO/">XyybBO</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <p>Step 5: Javascript</p> 
+                <p> - Last, we have the javascript for this filtering gallery. </p>
+
+                <ul><li> This filterSelection function will display and show all columns images.
+                        All the filtered elements will be displayed. Removed any elements that are not selected.
+                    </li></ul>
+                <ul><li> We assgin filterSelection function with id "all", which means we are implementing the function, and select all images to be displayed as default.
+                    </li></ul>
+                <pre>
+                    filterSelection("all")
+                    function filterSelection(img) 
+                        var x, i; // declare vairable x, and i
+                        x = document.getElementsByClassName("column");
+                        if (img == "all")
+                            img = "";
+                              // Add the "show" class to the filtered 
+                                    elements, and remove the "show" class 
+                                        from the elements that are not selected.
+                        for (i = 0; i < x.length; i++) {
+                            removeClass(x[i], "show");
+                            if (x[i].className.indexOf(img) > -1)
+                            addClass(x[i], "show");
+                        }
+                    }
+                </pre>
+
+                <ul><li> This addClass function will display and show selected column images.</li></ul>
+                <pre>
+                    // Show filtered elements
+                    function addClass(element, name) {
+                        var i, arr1, arr2;
+                        arr1 = element.className.split(" ");
+                        arr2 = name.split(" ");
+                        for (i = 0; i < arr2.length; i++) {
+                            if (arr1.indexOf(arr2[i]) == -1) {
+                                element.className += " " + arr2[i];
+                            }
+                        }
+                    }
+                </pre>
+
+                <ul><li> This remove function will hide any other elements which are not in selected column images.</li></ul>
+                <pre>
+                    // Hide elements that are not selected
+                    function removeClass(element, name) {
+                        var i, arr1, arr2;
+                        arr1 = element.className.split(" ");
+                        arr2 = name.split(" ");
+                        for (i = 0; i < arr2.length; i++) {
+                            while (arr1.indexOf(arr2[i]) > -1) {
+                                arr1.splice(arr1.indexOf(arr2[i]), 1); 
+                                   // splice 1 elements at arr1.indexOf(arr2[i])
+                            }
+                        }
+                        element.className = arr1.join(" ");// concatenating all of the elements
+                    }
+                </pre>
+                <p data-height="265" data-theme-id="0" data-slug-hash="aQBNVG" data-default-tab="html,result" data-user="issac7" data-pen-title="aQBNVG" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/aQBNVG/">aQBNVG</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <h1>Image flipping:</h1>
+                <p> - Next, I add a flipping effect to the images. </p>
+                <p> - First, I add an image. </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="QJVGwQ" data-default-tab="html,result" data-user="issac7" data-pen-title="QJVGwQ" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/QJVGwQ/">QJVGwQ</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <p> - Next, I add a flipping effect to the images. We use external styling sheet to style the images to be flipped. </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="BGQLXe" data-default-tab="css,result" data-user="issac7" data-pen-title="BGQLXe" class="codepen">See the Pen <a href="https://codepen.io/issac7/pen/BGQLXe/">BGQLXe</a> by Ying (<a href="https://codepen.io/issac7">@issac7</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                <h1>Putting all together: Click (Tester) at top.</h1>
+            </div>
+        </div>
+    </body>
+</html>

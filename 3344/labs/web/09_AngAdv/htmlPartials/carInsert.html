@@ -1,0 +1,76 @@
+<div id="insertArea">
+
+    <h3>Insert Car</h3>
+
+    <table>
+        <tr>
+            <td>
+                Descriptor:
+            </td>
+            <td>
+                <input type="text" id="descriptorId" ng-model="newCar.descriptor">
+            </td>
+            <td class="error" id="descriptorErrorId">
+                {{errors.descriptor}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Url Image:
+            </td>
+            <td>
+                <input type="text" id="urlImageId" ng-model="newCar.urlImage">
+            </td>
+            <td class="error" id="urlImageErrorId">
+                {{errors.urlImage}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Url Web:
+            </td>
+            <td>
+                <input type="text" id="urlWebId" ng-model="newCar.urlWeb">
+            </td>
+            <td class="error" id="urlWebErrorId">
+                {{errors.urlWeb}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Desgin date:
+            </td>
+            <td>
+                <input type="text" id="designDateId" ng-model="newCar.designDate">
+            </td>
+            <td class="error" id="designDateErrorId">
+                {{errors.designDate}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Car Rate:
+            </td>
+            <td>
+                <input type="text" id="carRateId" ng-model="newCar.carRate">
+            </td>
+            <td class="error" id="carRateErrorId">
+                {{errors.carRate}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button ng-click="insertSave()">Insert Save</button>
+            </td>
+            <td colspan="2" class="error">
+                {{errors.errorMsg}}
+            </td>
+        </tr>
+    </table>
+
+</div>

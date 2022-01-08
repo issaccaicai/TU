@@ -1,0 +1,29 @@
+<div id='dataList'> <!-- listStyle.css has rules for id dataList -->
+
+    <h2>Cars</h2>
+
+    <div>
+        Search: <input ng-model="query" type="text"/>
+    </div>
+    <br/>
+    <table>
+        <tr>
+            <th ng-click="sortField = 'idSort'; reverse = !reverse"> Car Id <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'descriptorSort'; reverse = !reverse">Descriptor <img src='icons/sortUpDown16.png'></th>
+             <th ng-click="sortField = 'urlImageSort'; reverse = !reverse">Url Image <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'urlWebSort'; reverse = !reverse">Url Web <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'designDateSort'; reverse = !reverse">Desgin date <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'carRateSort'; reverse = !reverse">Car Rate <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'errorMsgSort'; reverse = !reverse">Error Msg <img src='icons/sortUpDown16.png'></th>
+        </tr>
+        <tr ng-repeat="carObj in carList| filter:query | orderBy:sortField:reverse">
+            <td>{{carObj.carId}}</td>
+            <td>{{carObj.descriptor}}</td>
+            <td><img width="200" src="{{carObj.urlImage}}"/></td>
+            <td>{{carObj.urlWeb}}</td>
+            <td>{{carObj.designDate}}</td>
+            <td>{{carObj.carRate}}</td>
+            <td>{{carObj.errorMsg}}</td>
+        </tr>
+    </table>
+</div>

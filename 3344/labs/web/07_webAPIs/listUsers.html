@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- external style sheets -->
+        <link href="../style/myStyle.css" rel="stylesheet" type="text/css" />  
+        <link href="../style/listStyle.css" rel="stylesheet" type="text/css" />  
+
+    </head>
+    <body>
+        <div id="titleNav">
+            <div id="pageTitle">
+                Web Users list
+            </div>
+            <div id = "nav">
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="listUsers.html">User Table</a></div>
+                <div><a href="../labs.html">Labs</a></div>
+            </div>
+        </div>
+
+        <br/>
+        <div id="dataList"></div>
+
+        <script src="js/ajaxUtilities.js"></script>
+        <script src="js/buildTable.js"></script>
+        <script>
+
+            function $(element) {
+                return document.getElementById(element);
+            }
+
+            // Make an ajax call to read the given url. 
+            // Then proceed with either function processResponse or processError 
+            // (depending on whether or not the ajax call is successful. 
+            ajaxCall("listUsersAPI.jsp", processResponse, processError);
+
+            function processError(httpRequest) {
+                $("dataList").innerHTML = httpRequest.errorMsg;
+            }
+
+            function processResponse(httpRequest) {
+
+                var target = $("dataList");
+
+                console.log("listUsersResponse - here is the value of httpRequest object (next line)");
+                console.log(httpRequest);
+
+                var obj = JSON.parse(httpRequest.responseText);
+
+                if (obj === null) {
+                    target.innerHTML = "listUsersResponse Error: JSON string evaluated to null.";
+                    return;
+                }
+
+                if (obj.dbError === null) {
+                    target.innerHTML = "listUsersResponse Error: parsed object has no 'dbError' property.";
+                    return;
+                }
+
+                // First parameter: 
+                //     An array of objects that are to be built into an HTML table.
+                // Second parameter: 
+                //     string that holds database error (if any) or empty string if all OK.
+                // Third parameter: 
+                //     reference to DOM object where built table is to be stored. 
+                buildTable(obj.webUserList, obj.dbError, target);
+
+
+            } // end of processResponse
+
+
+        </script>
+    </body>
+</html>

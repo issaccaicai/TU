@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ying's Tutorial</title>
+
+
+        <link href="style.css" rel="stylesheet" type="text/css" />  
+        <link href="image.css" rel="stylesheet" type="text/css" /> 
+    </head>
+    <body>
+        <div id="titleNav">
+
+            <div id="pageTitle">
+                Image Tutorial
+            </div>
+
+            <div id="nav">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="example.html">Tester</a></div>
+
+                <div><a href="log.html">Log</a></div>
+                <div><a href="../labs.html">Labs</a></div>
+            </div>
+
+            <div class="stopFloat"></div>
+
+        </div>
+        <div class="stopFloat"></div>
+
+        <div ng-app="">
+            <div class="container">
+                <div class="main">
+
+                    <h1>Image Gallery</h1>
+                    <p>Example 1:</p>
+                    <hr>
+
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('bicycle')"> Bicycle</button>
+                        <button class="btn" onclick="filterSelection('airplane')"> Airplane</button>
+                        <button class="btn" onclick="filterSelection('boat')"> Boat</button>
+                        <button class="btn" onclick="filterSelection('empty')"> Empty</button>
+
+
+                        <div class="row">
+                            <div class="column bicycle">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/bicycle1.jpg" alt="Bicycle" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Bicycle 1</h2>
+                                                <p>This is the Bicycle 1.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Bicycle 1</h4>
+                                </div>
+                            </div>
+
+                            <div class="column bicycle">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/bicycle2.jpg" alt="Bicycle" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Bicycle 2</h2>
+                                                <p>This is the Bicycle 2.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Bicycle 2</h4>
+                                </div>
+                            </div>
+
+                            <div class="column bicycle">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/bicycle3.jpg" alt="Bicycle" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Bicycle 3</h2>
+                                                <p>This is the Bicycle 3.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Bicycle 3</h4>
+                                </div>
+                            </div>
+
+                            <div class="column airplane">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/airplane1.jpg" alt="Airplane" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Airplane 1</h2>
+                                                <p>This is the Airplane 1.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h4>Airplane 1</h4>
+                                </div>
+                            </div>
+
+                            <div class="column airplane">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/airplane2.jpg" alt="Airplane" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Airplane 2</h2>
+                                                <p>This is the Airplane 2.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Airplane 2</h4>
+                                </div>
+                            </div>
+
+                            <div class="column airplane">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/airplane3.jpg" alt="Airplane" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Airplane 3</h2>
+                                                <p>This is the Airplane 3.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Airplane 3</h4>
+                                </div>
+                            </div>
+
+                            <div class="column boat">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/boat1.jpg" alt="Boat" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Boat 1</h2>
+                                                <p>This is the Boat 1.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Boat 1</h4>
+                                </div>
+                            </div>
+
+                            <div class="column boat">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/boat2.jpg" alt="Boat" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Boat 2</h2>
+                                                <p>This is the Boat 2.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Boat 2</h4>
+                                </div>
+                            </div>
+
+                            <div class="column boat">
+                                <div class="content">
+                                    <div class="flip-box">
+                                        <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                                                <img src="pics/boat3.jpg" alt="Boat" style="width:300px;height:200px">
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h2>Boat 3</h2>
+                                                <p>This is the Boat 3.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Boat 3</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <p>Example 2:</p>
+
+
+                        <button class="btn" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('car')"> Car</button>
+                        <button class="btn" onclick="filterSelection('bus')"> Bus</button>
+                        <button class="btn" onclick="filterSelection('empty')"> Empty</button>
+                    </div>
+
+                    <div class="row">
+                        <div class="column car">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/car1.jpg" alt="Car" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Car 1</h2>
+                                            <p>This is the Car 1.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Car 1</h4>
+                            </div>
+                        </div>
+                        <div class="column car">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/car2.jpg" alt="Car" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Car 2</h2>
+                                            <p>This is the Car 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Car 2</h4>
+                            </div>
+                        </div>
+
+                        <div class="column car">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/car3.jpg" alt="Car" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Car 3</h2>
+                                            <p>This is the Car 3.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Car 3</h4>
+                            </div>
+                        </div>
+
+                        <div class="column bus">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/bus1.jpg" alt="Bus" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Bus 1</h2>
+                                            <p>This is the Bus 1.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Bus 1</h4>
+                            </div>
+                        </div>
+
+                        <div class="column bus">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/bus2.jpg" alt="Bus" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Bus 2</h2>
+                                            <p>This is the Bus 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Bus 2</h4>
+                            </div>
+                        </div>
+
+                        <div class="column bus">
+                            <div class="content">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="pics/bus3.jpg" alt="Bus" style="width:300px;height:200px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2>Bus 3</h2>
+                                            <p>This is the Bus 3.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Bus 3</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="image.js"></script>
+    </body>
+</html>

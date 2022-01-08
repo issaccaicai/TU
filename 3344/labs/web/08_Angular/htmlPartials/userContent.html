@@ -1,0 +1,25 @@
+<div id='dataList'> <!-- listStyle.css has rules for id dataList -->
+
+    <h2>Web Users</h2>
+
+    <div>
+        Search: <input ng-model="query" type="text"/>
+    </div>
+    <br/>
+    <table>
+        <tr>
+            <th ng-click="sortField = 'idSort'; reverse = !reverse">Id <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'emailSort'; reverse = !reverse">Email <img src='icons/sortUpDown16.png'></th>
+             <th ng-click="sortField = 'birthdaySort'; reverse = !reverse">Birthday <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'membershipFeeSort'; reverse = !reverse">Membership Fee <img src='icons/sortUpDown16.png'></th>
+            <th ng-click="sortField = 'errorMsgSort'; reverse = !reverse">Error Msg <img src='icons/sortUpDown16.png'></th>
+        </tr>
+        <tr ng-repeat="userObj in userList| filter:query | orderBy:sortField:reverse">
+            <td>{{userObj.webUserId}}</td>
+            <td>{{userObj.userEmail}}</td>
+            <td>{{userObj.birthday}}</td>
+            <td>{{userObj.membershipFee}}</td>
+            <td>{{userObj.errorMsg}}</td>
+        </tr>
+    </table>
+</div>
